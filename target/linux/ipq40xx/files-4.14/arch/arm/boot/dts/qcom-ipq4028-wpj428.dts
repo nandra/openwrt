@@ -29,6 +29,7 @@
 	soc {
 		mdio@90000 {
 			status = "okay";
+			phy-reset-gpio = <&tlmm 59 0>;
 		};
 
 		ess-psgmii@98000 {
